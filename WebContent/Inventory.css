@@ -1,0 +1,722 @@
+@charset "ISO-8859-1";
+
+body{
+	margin:0;
+}
+
+
+/* Inventory */
+
+.box1{
+	width: 300px;
+	height:520px;
+	border-radius: 25px;
+	background-color:#8EB49B; /* color green  */
+	margin: 2vw;
+}
+
+.box2{
+	background-color: #7A98AA; /* color red  */
+	display:flex; /* boxes display horizontally  */
+	flex-wrap: wrap; /* boxes sizes don't shrink  */
+	justify-content: space-around;  /* display boxes in raw equally  */
+	justify-content:flex-start; /*align all boxes to left in every raw */
+	width: 1100px;
+	height:1200px;
+	margin-left: 22vw;
+	margin-top: 0px;
+
+}
+
+.box3{
+	background-color: #005C85; /* color blue  */
+	width: 20vw;
+	height:60vh;
+	position: fixed;
+	left: 0;
+	top: 150px;
+}
+
+.box3 *{
+	margin:0;
+	padding: 0;
+	float:left;	
+
+}
+
+.box3 ul li{
+	font-size:1.4vw;
+	padding:2vw;
+	width:13vw;
+	list-style: none; /* to remove bullet points  */
+}
+
+.box3 ul li a{
+	color:red;
+	text-decoration:none;
+}
+
+.box3 ul li:hover{
+	background:#FF5733;
+	width:16.4vw;
+	border-style: inset;
+
+}
+.box3 ul li:hover a{
+	color:white;
+	cursor: pointer;
+	
+}
+.box4{
+	background-color: #476575; /* color yellow  */
+	display:flex;
+	flex-wrap: wrap;
+}
+
+.topic{
+	margin-left: 50vw;
+	margin-top: 50px;
+}
+
+.topic h1{
+	color:red;
+}
+
+.pName{
+	text-align: center;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.pPrice{
+	text-align: center;
+	font-size: 24px;
+}
+
+.pDetails{
+	font-size: 20px;
+}
+
+.btn1{
+	font-size: 20px;
+	font-weight: bold;
+	margin-top:5px;
+	margin-left: 120px;
+	padding : 8px 8px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.box1 input[type=submit]:hover{
+	cursor: pointer;
+	background-color: #42f54b;
+}
+
+
+.qtyLabel{
+	margin-left:50px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#qty{
+	width:15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Invoice */
+
+#iTitle{
+	text-align: center;
+	color: #66afe9;
+    background-color: #efefef;
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+
+table{
+	width : 80%;
+}
+
+table,th,tr,td{
+    text-align: center;
+	margin:auto;
+	border-collapse: collapse; /* Remove double line of the table  */
+	border: 3px solid black;
+	font-size:30px;
+
+}
+
+.invoice_btn{
+	margin-left: 48vw;	
+}
+
+.invoiceTab{
+	margin-top: 65px;
+	margin-bottom: 105px;
+}
+
+.invoice_btn input[type=submit]{
+	padding: 15px;
+	background-color: #84fc03;
+}
+
+.invoice_btn input[type=submit]:hover{
+	background-color: #0ffc03;
+	cursor: pointer;
+}
+
+.btn3{
+	margin-left: 1190px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #f7ff0a;
+}
+
+.btn3:hover{
+	background-color: #fff70a;
+	cursor: pointer;
+}
+
+.btn2{
+	padding-top: 3px;
+	margin-bottom: 5px;
+	font-size: 15px;
+	background-color: #ff2a00;
+}
+
+.btn2:hover{
+	background-color: #e03614;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Payment */
+
+.card{
+	margin-left: 20px;
+}
+
+.cname,.ccnum{
+	margin-left: 110px;
+}
+
+#title_p{
+	text-align: center;
+}
+
+input[type=text] {
+	
+	padding:1vw;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+
+.card input[type=submit]{
+	margin-left: 200px;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: bold;
+	background-color: #84fc03;
+}
+
+.card input[type=submit]:hover {
+	background-color: #0ffc03;
+	cursor: pointer;
+}
+
+.btn4{
+	margin-left: 10px;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 15px;
+	background-color: #f4fc03;
+}
+
+.btn4:hover{
+	background-color: #fcf003;
+	cursor: pointer;
+}
+
+#cname,#ccnum{
+	width :20vw;
+	margin-left: 110px;
+}
+
+.expyear{
+	margin-left: 10vw;
+}
+.cvv{
+ 	margin-left: 8vw;
+}
+
+#exmonth{
+	width: 6vw;
+}
+#expyear{
+	width: 6vw;
+	margin-left: 5vw;
+}
+#cvv{
+	width: 6vw;
+	margin-left: 5vw;
+}
+
+
+/* Payment NEW */
+
+.pBox1{
+	background-color: #476575;
+	display:flex; /* boxes display horizontally  */
+	flex-wrap: wrap; /* boxes sizes don't shrink  */
+	margin-left:0px;
+	width: 1550px;
+	height: 500px;
+	margin-top: 65px;
+}
+
+.pBox2{
+	background-color: #476575;
+	margin-left:20px;
+	width: 450px;
+	height: 500px;
+
+}
+
+.pBox3{
+	background-color: #e0dcdc;
+	width: 600px;
+	height: 500px;
+}
+
+.pBox4{
+	background-color: #476575;
+	width: 440px;
+	height: 500px;
+}
+
+
+
+
+
+
+
+
+
+/* Update Page */
+.box10{
+	display:flex; /* boxes display horizontally  */
+	flex-wrap: wrap; /* boxes sizes don't shrink  */
+	margin-top:60px;
+	
+	
+}
+
+.box7{
+	background-color: #8EB49B;
+	width: 300px;
+	height:520px;
+}
+
+.box8{
+	background-color: #7A98AA;
+	width: 607px;
+	height: 520px;
+}
+.box9{
+	background-color: #7A98AA;
+	width: 607px;
+	height: 520px;
+}
+
+.btn10{
+	font-size: 20px;
+	font-weight: bold;
+	margin-top:5px;
+	margin-left: 100px;
+	padding : 8px 8px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+
+
+
+/* Payment Confirmation Page */
+
+.box11{
+	background-color: #EFFDF3;
+	margin-left:400px;
+	width:700px;
+	height:550px;
+}
+
+.box12{
+	margin-top:65px;
+	background-color: #476575;
+	width:1520px;
+	height:550px;
+}
+
+.ButtonConfirm{
+	margin-left: 300px;
+	padding: 5px;
+	background-color: #2f7bf5;
+	font-size: 20px;
+}
+
+.ButtonConfirm:hover {
+	background-color: #2cf1f5;
+	cursor: pointer;
+	color : white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Header and Footer */
+
+
+.header{
+	position:fixed;
+	width:100%;
+	top:0px;
+}
+
+
+.footer{
+	position: absolute;
+	width:100%;
+}
+
+
+	
+.logo{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+.sign{
+  width: 20%;
+  height: 5%;
+  background-color:#71797E;
+  text-align:"right";
+  color:white;
+}
+
+
+
+.title{
+	color:	red;
+	font-size: 50px;
+	font-family:candara;
+	 font-style: oblique;
+}
+
+.subtit{
+	
+	color:black;
+	font-family: "Lucida Console", "Courier New", monospace;
+	
+}
+
+.colorwhite{
+	color:white;
+	
+}
+h2{
+	font-size:36px;
+	font-family:"Algerian";
+	text-align:center;
+}
+/*bar changers*/
+#line{
+	border: 1px solid black;
+}
+
+ul.menu{
+	list-style-type:none;
+	background-color: #8c968f;
+	overflow:hidden;
+	padding-left:0;
+	margin-top:0px;
+	
+}
+
+li.menu{
+	float:left;
+}
+
+.menu li a{
+	display:block;
+	color:white;
+	font-size:30px;
+	text-decoration: none;
+	text-align:center;
+	padding:15px;
+}
+
+
+.sign li a:hover{
+	background-color:#2980B9;
+}
+
+
+.menu li a:hover{
+	background-color:#2980B9;
+}
+
+/*align settings*/
+#tbl{
+	margin-top:15px;
+	margin-bottom:10px;
+	margin-left:10px;
+	margin-right:10px;
+	
+}
+/*photo button settled*/
+.btn{
+	margin-top:10px;
+	width:220px;
+	height:260px;
+	background-color:white;
+}
+
+
+.btn:hover{
+	background-color:yellow;
+}
+/*image settings*/
+#img {
+	border:5px solid #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+}
+#table{
+	margin-right: auto;
+	background-color:Black;
+}
+#img1 {
+	border:5px solid #ffffff;
+	display: block;
+	margin-left: auto;
+
+}
+#table1{
+	
+	margin-left: auto;
+	background-color:Black;
+}
+#img2 {
+	border:5px solid #ffffff;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#table2{
+	
+	margin-left: auto;
+	margin-right: auto;
+	background-color:Black;
+}
+/*form color weight*/
+#frm{
+	background-color:white;
+	padding:50px;
+}
+
+/*search bar settings*/
+.topnav .search-container {
+  float: right;
+  position: relative;
+  top: -82px;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+.topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+
+.marknew {
+  background-color: yellow;
+  color: black;
+}
+
+.wrapper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 350px;
+  width: 100%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 2px rgba(254,236,164,1); 
+}
+
+.wrapper h2{
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #332902;
+}
+
+.wrapper .input_field{
+  margin-bottom: 10px;
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+  border: 3px color;
+  width: 100%;
+  padding: 10px;
+}
+
+.wrapper textarea{
+  height: 100px;
+}
+
+.wrapper .btn input[type="submit"]{
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  background-color: yellow;
+  color: #332902;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+
+#error_message{
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  text-align: center;
+  font-size: 14px;
+}
+
+
+.fa {
+  padding: 5px;
+  font-size: 30px;
+  width: 40px;
+  height:40px;
+   text-align: center;
+  text-decoration: none;
+  margin: 5px 3px;
+}
+
+.fa:hover {
+    opacity: 0.9;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+ 
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+   
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+   
+}
+
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+   
+}
+
+.column {
+    float: left;
+    }
+
+ /* Set width length for the left, right and middle columns */
+   
+.left {
+	 width: 30%;
+}
+
+.middle {
+    width: 30%;
+}
+    
+.right {
+    width: 40%;
+}
+
+.innerfooter:after {
+    content: "";
+    clear: both;
+}
+    
+.f{
+    background-color:#808080;
+    margin-right:500px;
+    width:100%;
+}
+    
+.f p{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+        
